@@ -1,0 +1,17 @@
+.chart-container {
+  background: var(--bg-card);
+  padding: 25px;
+  border-radius: 12px;
+  border: 0.5px solid var(--border-light);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  margin-bottom: 30px;
+}
+
+.chart-container h3 {
+  color: var(--text-primary);
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
