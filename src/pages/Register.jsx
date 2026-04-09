@@ -242,9 +242,13 @@ const Register = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
-                placeholder="Contact number"
+                placeholder="10-digit contact number"
+                maxLength={10}
+                className={errors.phone ? 'error' : ''}
                 disabled={isLoading}
               />
+              
+              {errors.phone && <span className="error-text">{errors.phone}</span>}
             </div>
           </div>
 
