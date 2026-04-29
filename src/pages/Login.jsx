@@ -190,6 +190,31 @@ const Login = () => {
           Don't have an account?
           <button onClick={() => navigate('/register')} disabled={isLoading}>Register here</button>
         </div>
+        <div className="demo-credentials">
+          <div className="demo-header">
+          <span className="demo-icon">🔑</span>
+          <strong>Credentials</strong>
+          </div>
+
+        <div className="demo-list">
+        <div className="demo-item">
+        <span className="role-badge student-badge">Admin</span>
+        <span className="email">admin@college.edu</span>
+        <span className="password-hint">admin123</span>
+        </div>
+
+        <div className="demo-item">
+        <span className="role-badge student-badge">Student</span>
+        <span className="email">kumarshubham32694@gmail.com</span>
+        <span className="password-hint">• 123456</span>
+        </div>
+
+    <div className="demo-item">
+ 
+  <span className="email">For rest register your own account</span>
+</div>
+  </div>
+</div>
       </motion.div>
     </div>
   );
